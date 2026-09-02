@@ -1,0 +1,16 @@
+{
+  "generated_at_utc": "2026-09-02T09:44:09+00:00",
+  "source": "VPN-checker nodes_db.json",
+  "criteria": {
+    "working": "latest known Site state has at least one Site OK",
+    "fast": "working AND speed >= 100 KB/s",
+    "fast_low_latency": "working AND speed >= 100 KB/s AND latency <= 1000 ms",
+    "endpoint_deduplication": true,
+    "profile_limit": 200
+  },
+  "counts": {
+    "working": 25,
+    "fast": 10,
+    "fast_low_latency": 6
+  }
+}
