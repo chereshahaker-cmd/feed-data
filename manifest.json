@@ -1,16 +1,17 @@
 {
-  "generated_at_utc": "2026-09-03T17:10:40+00:00",
-  "source": "VPN-checker nodes_db.json",
+  "generated_at_utc": "2026-09-03T20:41:07+00:00",
+  "mode": "STRICT_CURRENT_SCAN",
   "criteria": {
-    "working": "latest known Site state has at least one Site OK",
-    "fast": "working AND speed >= 100 KB/s",
-    "fast_low_latency": "working AND speed >= 100 KB/s AND latency <= 1000 ms",
-    "endpoint_deduplication": true,
+    "working": "full scan age <= 24h AND site_any_ok=true AND >= 3 current Site OK",
+    "fast": "working AND current speed >= 100 KB/s",
+    "fast_low_latency": "fast AND current latency <= 1000 ms",
+    "metric_scan_tolerance_minutes": 20,
+    "dedupe_endpoint": true,
     "profile_limit": 200
   },
   "counts": {
-    "working": 32,
-    "fast": 10,
-    "fast_low_latency": 6
+    "working": 4,
+    "fast": 1,
+    "fast_low_latency": 0
   }
 }
