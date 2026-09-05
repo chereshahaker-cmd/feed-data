@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T15:10:33+00:00",
+  "generated_at_utc": "2026-09-05T19:14:36+00:00",
   "mode": "STRICT_CURRENT_SCAN",
   "criteria": {
     "working": "full scan age <= 24h AND site_any_ok=true AND >= 3 current Site OK",
@@ -10,8 +10,8 @@
     "profile_limit": 200
   },
   "counts": {
-    "working": 5,
-    "fast": 1,
+    "working": 0,
+    "fast": 0,
     "fast_low_latency": 0
   }
 }
