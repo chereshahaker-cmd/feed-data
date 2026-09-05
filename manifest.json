@@ -1,17 +1,36 @@
 {
-  "generated_at_utc": "2026-09-05T19:14:36+00:00",
-  "mode": "STRICT_CURRENT_SCAN",
+  "generated_at_utc": "2026-09-05T19:24:07+00:00",
+  "source": "central_state.sqlite3 / observations",
+  "mode": "STRICT_CENTRAL_AGGREGATED",
   "criteria": {
-    "working": "full scan age <= 24h AND site_any_ok=true AND >= 3 current Site OK",
-    "fast": "working AND current speed >= 100 KB/s",
-    "fast_low_latency": "fast AND current latency <= 1000 ms",
-    "metric_scan_tolerance_minutes": 20,
-    "dedupe_endpoint": true,
+    "fresh_hours": 24.0,
+    "working": "latest non-ENGINE observation per endpoint+network_scope AND >= 3 Site OK",
+    "fast": "working AND same-observation speed >= 100 KB/s",
+    "fast_low_latency": "fast AND same-observation latency <= 1000 ms",
+    "engine_error": "ignored as remote-state evidence",
+    "network_scope": "multiple worker instances in the same physical scope count as one current observation",
+    "global_endpoint_rule": "include if at least one network_scope has a current strict success",
+    "endpoint_deduplication": true,
     "profile_limit": 200
   },
+  "central": {
+    "nodes": 2077,
+    "observations_total": 1753,
+    "fresh_latest_non_engine_rows": 1330,
+    "fresh_endpoint_scopes": 1330,
+    "fresh_endpoints_seen": 1330,
+    "network_scopes_seen": 1,
+    "latest_classifications": {
+      "DEAD": 1107,
+      "DEGRADED": 7,
+      "GOOD": 4,
+      "NONWORKING": 190,
+      "TUNNEL_OK_SITE_FAIL": 22
+    }
+  },
   "counts": {
-    "working": 0,
-    "fast": 0,
-    "fast_low_latency": 0
+    "working": 7,
+    "fast": 4,
+    "fast_low_latency": 1
   }
 }
