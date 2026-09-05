@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T21:24:43+00:00",
+  "generated_at_utc": "2026-09-05T21:26:35+00:00",
   "source": "central_state.sqlite3 / observations",
   "mode": "STRICT_CENTRAL_AGGREGATED",
   "criteria": {
@@ -15,7 +15,7 @@
   },
   "central": {
     "nodes": 2077,
-    "observations_total": 1772,
+    "observations_total": 1773,
     "fresh_latest_non_engine_rows": 1167,
     "fresh_endpoint_scopes": 1167,
     "fresh_endpoints_seen": 1167,
