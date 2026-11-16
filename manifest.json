@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-16T20:48:38+00:00",
+  "generated_at_utc": "2026-11-16T21:55:25+00:00",
   "source": "central_state.sqlite3 / observations",
   "mode": "STRICT_CENTRAL_AGGREGATED",
   "criteria": {
@@ -14,17 +14,17 @@
     "profile_limit": 200
   },
   "central": {
-    "nodes": 24537,
-    "observations_total": 12276,
-    "fresh_latest_non_engine_rows": 513,
-    "fresh_endpoint_scopes": 513,
-    "fresh_endpoints_seen": 513,
+    "nodes": 24713,
+    "observations_total": 12296,
+    "fresh_latest_non_engine_rows": 533,
+    "fresh_endpoint_scopes": 533,
+    "fresh_endpoints_seen": 533,
     "network_scopes_seen": 1,
     "latest_classifications": {
-      "DEAD": 366,
+      "DEAD": 375,
       "DEGRADED": 7,
       "GOOD": 50,
-      "NONWORKING": 78,
+      "NONWORKING": 89,
       "TUNNEL_OK_SITE_FAIL": 12
     }
   },
