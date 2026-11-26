@@ -1,3 +1,8 @@
 trojan://YektaCloud@31.56.229.22:8443?allowInsecure=1&alpn=http%2F1.1%2Ch3%2Ch2&fp=firefox&path=%2FYektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud----%40YektaCloud&security=tls&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Kansas%20City%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 hysteria2://EelIYEc5ZR8RT6thWcK9ohYkp3bYZGcn@137.175.93.155:28795?sni=www.microsoft.com&down=99&insecure=1#%F0%9F%87%A8%F0%9F%87%B3%20China%2C%20Pingxiang%20%7C%20%5BBL%5D
+vless://8840fac2-5361-4cb6-b887-cd1b95092394@50.7.159.242:443?security=tls&fp=firefox&sni=jp.reddotcorp.org&encryption=none&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20Japan
+trojan://umz7fMUCXmOFOA24i5sohCXYrmGExGOq@186.241.106.5:443?security=tls&sni=186.241.106.5#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%BA%F0%9F%87%B8%20%7C%20%5BBL%5D
 trojan://7756180a-3a07-4939-91be-ae7664b311ca@23.144.92.53:49213?insecure=1&security=tls&sni=www.itunes.com&type=tcp#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://1b69be8b-2ba1-44b9-b77f-dcd545fea94b@13.51.184.77:443?security=reality&encryption=none&pbk=SeIf_Z2Q8IzrHfLrc6jHyVT_BMFOuuIlpf8tyWZrKzY&headerType=&fp=chrome&spx=%2Fb919a606e7869c6&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=f0#SE
+ss://YWVzLTI1Ni1nY206MTIzNDU2@8.216.5.89:5555#JP
+ss://YWVzLTI1Ni1nY206MTIzNDU2@47.74.27.11:5555#JP
